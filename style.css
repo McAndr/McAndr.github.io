@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+html, body{
+	height: 100%;
+}
+h1 {
+	width: 50%;
+}
+body {
+	background-color: rgb(27, 27, 27);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.navbar {
+	overflow: hidden;
+	display: block;
+	position: fixed;
+	text-align: center;
+	top: 20px;
+	width: 50%;
+	border-bottom: 1px solid white;
+}
+.navbar a {
+	text-align: center;
+	display: inline-block;
+	padding: 1em;
+}
+.navbar a.active {
+	background-color: rgb(85, 83, 83);
+}
+.navbar a:hover {
+	background-color: rgb(85, 83, 83);
+}
